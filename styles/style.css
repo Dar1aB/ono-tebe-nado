@@ -1,1 +1,64 @@
-/* место для вашего кода */
+body {
+    color: #000;
+    font-weight: 400;
+    background-color: #615757; /** ПОМЕНЯТЬ!!**/
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    margin: 92px 24px 96px;
+    background-color: #fff;
+}
+
+.header_menu {
+    padding-left: 26px;
+}
+
+.header_links-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    font-size: 18px;
+    list-style: circle;
+}
+
+.header_links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header_link {
+    letter-spacing: 0.01em;
+    text-underline-offset: 4px;
+}
+
+.header_link_active {
+    letter-spacing: normal;
+}
+
+.header_logo {
+    display:block;
+    width: 136px;
+    height: 105px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 135%;
+    letter-spacing: 0.01em;
+    text-underline-offset: 4px;
+}
+
+.address p {
+    letter-spacing: normal;
+}
+
+.header_address {
+    justify-self: end;
+    margin-right: 25px;
+}
