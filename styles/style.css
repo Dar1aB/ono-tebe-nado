@@ -282,14 +282,14 @@
     text-decoration: none;
 }
 
-.footer_social-list {
+.footer__social-list {
     display: flex;
     justify-content: end;
     gap: 48px;
     list-style: none;
 }
 
-.footer_social-link {
+.footer__social-link {
     display: block;
     width: 48px;
     height: 48px;
